@@ -295,3 +295,39 @@ nav ul li a:hover::after {
 .btn {
     background-color: #007BFF;
 }
+
+
+
+/* Project Section*/
+
+
+
+/* Add this to your style.css file */
+
+/* Ensure images and cards are responsive */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjust card styles for better responsiveness */
+#project .card {
+    margin-bottom: 20px;
+}
+
+/* Ensure buttons within cards stack properly on smaller screens */
+.button-container .btn {
+    flex: 1;
+    margin: 5px 0;
+}
+
+/* Flexbox adjustments for button containers */
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust text alignment for smaller screens */
+#project .card-text {
+    text-align: justify;
+}
